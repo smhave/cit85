@@ -1,0 +1,7 @@
+.red::first-letter {
+    color: red;
+}
+
+.blue::first-line {
+    color: blue;
+}

@@ -1,0 +1,11 @@
+.svgcontainer {
+    border: 1px solid red;
+    fill: red;
+    stroke-width: 5%;
+}
+
+
+
+.svgcontainer:hover {
+    fill: blue;
+}

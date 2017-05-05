@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>1</h1>
+
+<p class="red" id="blue">The class "red" has a specificity of 10, while the ID "blue" has a specificity of 100, so the blue ID wins.</p>
+
+<h1>2</h1>
+
+<h4 id="green">The "yellow" h4 element selector has a specificity of 1, and the "green" ID has a specificity of 100, so the yellow ID wins.</h4>
+
+<h1>3</h1>
+
+<h4 class="red">The "red" class has a specificity of 10, while the "yellow" h4 element selector has a specificity of 1, so the red class wins.</h4>
+
+<h1>4</h1>
+
+<h5 font-size="16px">The "blue" attribute font-size 16 selector has a specificity of 10, while the "red" h5 element selector has a specificity of 1, so the blue attribute selector wins.</h5>
+
+<h1>5</h1>
+
+<em class="red" font-size="16px">Both the blue font-size 16 attribute selector and the red class have a specificity of 10, but the attribute selector ended up winning. I believe this is because the font-size 16 attribute selector is listed later in the CSS than the red class.</em>
+
+
+
+</body>
+</html>

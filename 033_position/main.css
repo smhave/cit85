@@ -1,0 +1,12 @@
+
+div {
+    height: 200px;
+    width: 200px;
+    top: 500px;
+    left: 500px;
+    position: fixed;
+    color: white;
+    background-color: blue;
+}
+
+

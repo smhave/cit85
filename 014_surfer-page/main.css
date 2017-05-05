@@ -1,0 +1,45 @@
+*{
+    /*border: 5px solid red !important;*/
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+div {
+    width: 50%;
+    background-color: limegreen;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    border: 10px solid black;
+}
+
+img {
+    width: 55%;
+    border: 20px groove gold;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 20px 0 0 0;
+    padding: 0 15px 0 15px;
+}
+
+#one {
+    color: blue;
+}
+
+h1:nth-child(5) {
+    color: white;
+}
+
+p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+

@@ -1,0 +1,28 @@
+html, body, div {
+    border: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+div {
+    background-color: red;
+    transition-timing-function: ease;
+    transition-property: all;
+    transition-duration: 1s;
+    height: 25vh;
+    width: 25vw;
+}
+
+div:hover {
+    background-color: blue;
+    border-radius: 100%;
+    transform: rotate(45deg);
+}

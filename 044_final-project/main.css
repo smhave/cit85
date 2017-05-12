@@ -1,0 +1,86 @@
+html, body, div {
+    border: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url('sun.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flex0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 20vw;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 50vw;
+    animation-name: bounce1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bounce1 {
+    0% {
+        height: 100vh;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        height: 20vh;
+        transform: rotate(270deg);
+    }
+}
+
+.flex2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
+    width: 50vw;
+    animation-name: bounce2;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bounce2 {
+    0% {
+        height: 100vh;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        height: 20vh;
+        transform: rotate(270deg);
+    }
+}
+
+.flex1 div {
+    background-color: blue;
+    height: 20vh;
+    width: 20vh;
+}
+
+.flex2 div {
+    background-color: red;
+    height: 20vh;
+    width: 20vh;
+
+}
+
+h1 {
+    color: white;
+}
